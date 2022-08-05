@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "extract-styles-components-ast-examples",
+  "name": "extract-styles-components-ast",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "scripts": {
