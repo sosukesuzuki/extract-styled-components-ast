@@ -1,1 +1,1 @@
-# extract-styled-components-ast-examples
+# extract-styled-components-ast
