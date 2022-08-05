@@ -10,6 +10,7 @@ export function queryStyledComponentsCall(
   ast: File
 ): TaggedTemplateExpression[] {
   return esquery.query(
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     ast.program as any,
     selector
   ) as TaggedTemplateExpression[];

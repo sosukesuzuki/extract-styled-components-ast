@@ -4,6 +4,7 @@ import type { Element } from "stylis";
 import generate from "@babel/generator";
 import { QuasisMap } from "./quasis-map.js";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 type Replacer = (substring: string, ...args: any[]) => string;
 
 export function embedQuasis(cssAst: Element[], quasisMap: QuasisMap) {
